@@ -11,12 +11,12 @@ Scaffolding only — `notebooks/*.ipynb` contain the question, technique focus, 
 - `notebooks/` — one notebook per technique, numbered roughly in the order they're meant to be worked through
 - `src/utils.py` — shared path constants (`DATA_RAW`, `DATA_PROCESSED`) and plot styling, nothing analytical
 - `data/raw/`, `data/processed/` — gitignored, populated via Kaggle CLI or `causaldata` package per notebook instructions
-- `environment.yml` — conda env (`stats-causal-analyses-practice`)
+- `environment.yml` — conda env (`stats-causal`)
 
 ## Setup
 
 ```bash
 conda env create -f environment.yml
-conda activate stats-causal-analyses-practice
+conda activate stats-causal
 jupyter lab
 ```

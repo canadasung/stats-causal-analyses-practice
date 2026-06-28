@@ -1,4 +1,4 @@
-# Causal Stats Practice
+# Causal Analyses Practice
 
 Practice project applying causal inference techniques from the UBC MDS program to social-problem-style datasets. Split into two tracks: questions answerable by a randomized A/B test, and questions that can't be randomized (e.g. smoking → cancer) and need observational causal methods.
 
@@ -6,7 +6,7 @@ Practice project applying causal inference techniques from the UBC MDS program t
 
 ```bash
 conda env create -f environment.yml
-conda activate stats-causal-analyses-practice
+conda activate stats-causal
 jupyter lab
 ```
 
