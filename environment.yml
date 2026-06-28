@@ -1,0 +1,20 @@
+name: stats-causal-analyses-practice
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scipy
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - pip
+  - pip:
+      - linearmodels
+      - causalinference
+      - causaldata
+      - dowhy
+      - econml
+      - kaggle
